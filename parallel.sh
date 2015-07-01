@@ -1,6 +1,6 @@
 #!/bin/bash
 REP=10
-MUS="32 16 8 4 2"
+MUS="20 15 10"
 
 for MU in `echo $MUS`
 do

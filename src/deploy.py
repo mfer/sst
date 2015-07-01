@@ -1,13 +1,14 @@
 from utils import *
+import time
 import sys
 
 PWD=os.path.dirname(os.path.realpath(__file__))+"/"
 DEPLOY_FILE=PWD+"input/deploy"
 TERMS_FILE=PWD+"input/workfile"
 STEINS_FILE=PWD+"input/steiner"
-G_FILE=PWD+"output/g.png"
+G_FILE=PWD+"output/g"+str(time.time())+".png"
 
-GRANULARITY=2 #greater than one, should be
+GRANULARITY=3 #greater than one, should be
 SEGMENTS=GRANULARITY*(GRANULARITY-1)*2
 INTERSECTS=GRANULARITY*GRANULARITY
 

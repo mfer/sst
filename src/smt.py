@@ -1,4 +1,5 @@
 from utils import *
+import time
 
 def steiner_minimal_tree(g,k,FILE,PLOT):
     layout = Layout(zip(g.vs["x"], g.vs["y"]))
@@ -118,8 +119,8 @@ DEPLOY_FILE=PWD+"input/deploy"
 TERMS_FILE=PWD+"input/workfile"
 STEINS_FILE=PWD+"input/steiner"
 
-SMT_FILE=PWD+"output/smt.png"
-SMT_SST_FILE=PWD+"output/smt_sst.png"
+SMT_FILE=PWD+"output/smt"+str(time.time())+".png"
+SMT_SST_FILE=PWD+"output/smt_sst"+str(time.time())+".png"
 
 #READ_PARAMETERS###########################################################################################
 with open(DEPLOY_FILE) as f:

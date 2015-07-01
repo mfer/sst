@@ -227,9 +227,9 @@ def deploy_freely(NODES,R):
     return g
 
 def deploy(GRANULARITY,EPSILON,NODES,R,G_FILE,PLOT):
-    g=deploy_criptographically(GRANULARITY,EPSILON,NODES,R)
+    #g=deploy_criptographically(GRANULARITY,EPSILON,NODES,R)
     #g=deploy_efficiently(GRANULARITY,NODES,R)
-    #g=deploy_freely(NODES,R)
+    g=deploy_freely(NODES,R)
     if PLOT:
         plot(g,G_FILE,vertex_size=5)
     return g

@@ -3,11 +3,11 @@ steinerized steiner tree
 
 Qual é a rede mais curta entre um dado conjunto de pontos?
 
-Ou ainda dada uma rede mais curta, ela minimiza a maior distância entre pares de pontos?
+Ou ainda, dada uma rede mais curta, ela minimiza a maior distância entre pares de pontos?
 
 O que muda se for possível adicionar pontos extras?
 
-Terá o carneiro comido a flor?
+Terá ou não terá o carneiro comido a flor?
 
 Requisitos:
 

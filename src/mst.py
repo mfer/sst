@@ -1,4 +1,5 @@
 import numpy as np
+import time
 import sys
 import time
 import random
@@ -68,8 +69,8 @@ DEPLOY_FILE=PWD+"input/deploy"
 TERMS_FILE=PWD+"input/workfile"
 STEINS_FILE=PWD+"input/steiner"
 
-MST_FILE=PWD+"output/mst.png"
-MST_SST_FILE=PWD+"output/mst_sst.png"
+MST_FILE=PWD+"output/mst"+str(time.time())+".png"
+MST_SST_FILE=PWD+"output/mst_sst"+str(time.time())+".png"
 
 #READ_PARAMETERS###########################################################################################
 with open(DEPLOY_FILE) as f:
