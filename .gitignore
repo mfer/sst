@@ -2,8 +2,8 @@
 .Rhistory
 .Rapp.history
 .RData
-.Rout
-.data
+data.Rout
+data.data
 
 # Example code in package build process
 *-Ex.R
@@ -18,3 +18,4 @@ vignettes/*.pdf
 # temps or instance generated
 *~
 Rplots.pdf
+run/
