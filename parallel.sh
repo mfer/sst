@@ -2,6 +2,9 @@
 REP=10
 MUS="20 15 10"
 
+mkdir src/input
+mkdir src/output
+
 for MU in `echo $MUS`
 do
   mkdir -p run/$MU
