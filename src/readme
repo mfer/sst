@@ -1,0 +1,24 @@
+requisites packages:
+	python-numpy python-igraph
+		sudo apt-get install -y ipython python-pip python-numpy build-essential python-dev
+		sudo pip install python-igraph
+
+
+sst:
+	python main.py
+
+
+geosteiner (smt):
+	cd baseline
+	./configure
+	make
+	(cat prelude.ps; cat ../input/workfile | ./rfst | ./bb) > ../output/workfile.ps
+
+	to obtain it:
+		wget -c http://www.diku.dk/~martinz/geosteiner/geosteiner-3.1.tar.gz
+		gunzip geosteiner-3.1.tar.gz
+		tar xvf geosteiner-3.1.tar
+
+
+sst and smt:
+	make test

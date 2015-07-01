@@ -1,0 +1,35 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:548: checking for gcc
+configure:627: checking whether the C compiler (gcc  ) works
+configure:643: gcc -o conftest    conftest.c  1>&5
+configure:669: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:674: checking whether we are using GNU C
+configure:698: checking whether gcc accepts -g
+configure:728: checking for ranlib
+configure:786: checking for a BSD compatible install
+configure:843: checking for bison
+configure:843: checking for byacc
+configure:876: checking for flex
+configure:910: checking for yywrap in -ll
+configure:952: checking whether make sets ${MAKE}
+configure:982: checking for working const
+configure:1057: checking for inline
+configure:1097: checking return type of signal handlers
+configure:1139: checking how to run the C preprocessor
+configure:1222: checking for sys/utsname.h
+configure:1259: checking for ANSI C header files
+configure:1364: checking for Intel x86 floating point precision fix
+configure:1505: checking if gcc -ffloat-store needed
+configure:1612: checking for times() and CLK_TCK
+configure:1657: checking for working uname function
+configure:1704: checking for popen
+configure:1704: checking for pclose
+configure:1760: checking for uname
+configure:1802: checking if stderr is an lvalue
+configure:1894: checking for cplex
+configure:1937: checking for cplex.h
+configure:1958: checking for libcplex.a
+configure:1982: checking for cpxdefs.inc
+configure:2003: checking for cplex.a
