@@ -2,8 +2,8 @@
 REP=10
 MUS="20 15 10"
 
-mkdir src/input
-mkdir src/output
+mkdir -p src/input
+mkdir -p src/output
 
 for MU in `echo $MUS`
 do
