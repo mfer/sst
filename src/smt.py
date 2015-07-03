@@ -89,11 +89,13 @@ def read_graph(TERMS_FILE, STEINS_FILE):
             if (a>=0 and b>=0):
                 smt.add_edges([(a,b)])
             else:
+                a=-1
                 v=0
                 while v<len(smt.vs):
                     if smt.vs[v]["x"] == x1 and smt.vs[v]["y"] == y1:
                         a=v
                     v=v+1
+                b=-1
                 v=0
                 while v<len(smt.vs):
                     if smt.vs[v]["x"] == x2 and smt.vs[v]["y"] == y2:
