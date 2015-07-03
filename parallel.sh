@@ -1,6 +1,6 @@
 #!/bin/bash
 REP=10
-MUS="20 15 10"
+MUS="16 8 4 2"
 
 mkdir -p src/input
 mkdir -p src/output
