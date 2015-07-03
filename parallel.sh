@@ -14,3 +14,6 @@ do
   cd ../../
   sleep 10
 done
+
+clear
+echo "simulation is running. wait."
