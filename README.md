@@ -1,5 +1,4 @@
-# sst
-steinerized steiner tree
+# sst: steinerized steiner tree
 
 Qual é a rede mais curta entre um dado conjunto de pontos?
 
@@ -9,16 +8,15 @@ O que muda se for possível adicionar pontos extras?
 
 Terá ou não terá o carneiro comido a flor?
 
-Requisitos:
+# Requisitos:
 
-  sudo apt-get install -y ipython python-pip python-numpy build-essential python-dev r-base-core
+    sudo apt-get install -y ipython python-pip python-numpy build-essential python-dev r-base-core
+    sudo pip install python-igraph
 
-  sudo pip install python-igraph
+# Após instalação dos requisitos, inicie execução:
 
-Após instalação dos requisitos:
+    ./parallel.sh &
 
-  ./parallel.sh &
+# Quando terminar a execução:
 
-Quando terminar:
-
-  make data
+    make data
